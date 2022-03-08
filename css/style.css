@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#vidGallery {
+  width: 100%;
+  padding: 100px;
+  box-sizing: border-box;
+}
+#vidGallery article {
+  width: 25%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 30px;
+  float: left;
+}
+#vidGallery article::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#vidGallery article .pic {
+  display: block;
+  width: 100%;
+  height: 9.375rem;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+#vidGallery article .con {
+  width: 100%;
+  float: right;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+#vidGallery article .con h2 {
+  margin-top: 20px;
+  font: bold 18px/1.2 "arial";
+  color: #333;
+  margin-bottom: 10px;
+}
+#vidGallery article .con p {
+  font: 16px/1.3 "arial";
+  color: #666;
+  margin-bottom: 30px;
+}
+#vidGallery article .con span {
+  font: 12px/1 "arial";
+  color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */
